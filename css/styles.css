@@ -1,3 +1,6 @@
+.container {
+  padding-bottom: 20px; }
+
 .top-section {
   text-align: center;
   padding-top: 20px;
@@ -69,6 +72,9 @@
 .main-point {
   font-style: italic; }
 
+.sub-point {
+  margin-top: 10px; }
+
 .proof-row {
   margin-top: 15px; }
   .proof-row-left {
@@ -85,6 +91,9 @@
     text-align: center; }
 
 .results-item {
+  margin-top: 10px; }
+
+.conclusion-point {
   margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

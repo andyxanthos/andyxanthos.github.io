@@ -3,6 +3,10 @@ $grey: #A0A0A0;
 $greydots: 3px dotted $grey;
 $bluedots: 3px dotted $blue;
 
+.container {
+    padding-bottom: 20px;
+}
+
 .top-section {
     text-align: center;
     padding-top: 20px;
@@ -101,6 +105,10 @@ $bluedots: 3px dotted $blue;
     font-style: italic;
 }
 
+.sub-point {
+    margin-top: 10px;
+}
+
 .proof-row {
     margin-top: 15px;
 
@@ -128,5 +136,9 @@ $bluedots: 3px dotted $blue;
 }
 
 .results-item {
+    margin-top: 10px;
+}
+
+.conclusion-point {
     margin-top: 10px;
 }
