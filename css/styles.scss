@@ -100,3 +100,33 @@ $bluedots: 3px dotted $blue;
 .main-point {
     font-style: italic;
 }
+
+.proof-row {
+    margin-top: 15px;
+
+    &-left {
+        border-left: 3px solid red;
+    }
+
+    &-right {
+        border-left: 3px solid $blue;
+    }
+    
+
+    &-body {
+        text-indent: 30px;
+        line-height: 2em;
+    }
+}
+
+.results-row {
+    margin-top: 15px;
+
+    &-header {
+        text-align: center;
+    }
+}
+
+.results-item {
+    margin-top: 10px;
+}

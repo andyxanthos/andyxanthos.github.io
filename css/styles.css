@@ -69,4 +69,22 @@
 .main-point {
   font-style: italic; }
 
+.proof-row {
+  margin-top: 15px; }
+  .proof-row-left {
+    border-left: 3px solid red; }
+  .proof-row-right {
+    border-left: 3px solid #4398d1; }
+  .proof-row-body {
+    text-indent: 30px;
+    line-height: 2em; }
+
+.results-row {
+  margin-top: 15px; }
+  .results-row-header {
+    text-align: center; }
+
+.results-item {
+  margin-top: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
