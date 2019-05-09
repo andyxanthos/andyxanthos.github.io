@@ -1,6 +1,7 @@
 $blue: #4398d1;
 $grey: #A0A0A0;
 $greydots: 3px dotted $grey;
+$bluedots: 3px dotted $blue;
 
 .top-section {
     text-align: center;
@@ -14,6 +15,12 @@ $greydots: 3px dotted $grey;
 
 .red-text {
     color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.blue-text {
+    color: $blue;
     font-weight: bold;
     font-style: italic;
 }
@@ -71,8 +78,25 @@ $greydots: 3px dotted $grey;
 }
 
 .reason-column {
-    .reason-column-header {
+    &-header {
         text-align: center;
         font-style: italic;
     }
+
+    &-2 {
+        border-left: $bluedots;
+        border-right: $bluedots;
+    }
+
+    & ul li {
+        margin-top: 15px;
+    }
+}
+
+.easier-point {
+    margin-top: 10px;
+}
+
+.main-point {
+    font-style: italic;
 }
